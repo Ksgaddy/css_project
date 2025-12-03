@@ -1,24 +1,72 @@
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
+/* divider for my brain orginization */
 
 .header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #1F2937;
+    border: 8px solid green;
+    background-color: #1F2937
 }
 
-#logo {
+.logo {
+    border: 3px solid yellow;
     font-size: 24px;
-    font-weight: 900;
     color: #F9FAF8;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    gap: 24px;
-    color: #E5E7EB;
+li {
+    border: 3px solid yellow;
     font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* divider for my brain orginization */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: 8px solid green;
+}
+
+.section1 {
+    border: 5px solid black;
+}
+
+.section2 {
+    border: 5px solid black;
+}
+
+.section3 {
+    border: 5px solid black;
+}
+
+.section4 {
+    border: 5px solid black;
+}
+
+h4 {
+    border: 3px solid yellow;
+}
+
+
+
+/* divider for my brain orginization */
+
+.footer {
+    display: flex;
+    flex: 0;
+    border: 8px solid green;
+    background-color: #1F2937;
+}
+
+.copyright {
+    border: 3px solid yellow;
+    font-size: 8px;
+    color: #E5E7EB;
 }
