@@ -139,7 +139,35 @@ h2 {
 /* divider */
 
 .section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 399.750px;
 }
+
+.section3-quote {
+    width: 900px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.section3-author {
+    margin-left: 550px;
+}
+
+.author {
+    margin-top: 0px;
+}
+
+/* divider */
 
 .section4 {
 }
